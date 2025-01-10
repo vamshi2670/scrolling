@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year Scroll</title>
+    <style>
+      body {
+    
+   
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.scrolling-text {
+    position: absolute;
+    font-size: 2rem;
+    color: gold;
+    animation: scroll-text 10s linear infinite;
+}
+
+@keyframes scroll-text {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="scrolling-text" id="scrolling-text">🎉  Happy New Year! 🎉</div>
+    <script>
+      
+    </script>
+</body>
+</html>
